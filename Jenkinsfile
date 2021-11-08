@@ -1,4 +1,9 @@
-step('hello') {
-  println('hello')
-
+pipeline {
+  stages {
+    stage('hello') {
+      steps {
+         println('hello')
+      }
+    }
+  }
 }
