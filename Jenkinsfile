@@ -1,10 +1,5 @@
-pipeline {
-  agent { label 'any'}
-  stages {
+node {
     stage('hello') {
-      steps {
          println('hello')
-      }
     }
-  }
 }
